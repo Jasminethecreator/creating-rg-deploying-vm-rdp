@@ -1,38 +1,34 @@
-<h1>Creating Resource Group, Deploying VM and RDP to VM in Our Lab Environment</h1>
-This tutorial outlines the process of creating a resource group in Microsoft Azure to keep all of
-our lab resources organized in one place. We then deploy our Virtual Machine and use Remote
-Desktop Protocol to connect to our Azure virtual machine.<br />
-<h2>Environments and Technologies Used</h2>
-- Microsoft Azure
-<h2>Operating Systems Used </h2>
-- Windows 11
-<h2>Resource Group</h2>
-<p>
+# Creating Resource Group, Deploying VM and RDP to VM in Our Lab Environment
+
+## Objective
+Create a resource group in Microsoft Azure, deploy a virtual machine, and connect to it using Remote Desktop Protocol.
+
+## Scenario
+This lab simulated setting up a small cloud environment from scratch — organizing resources, deploying a virtual machine, and establishing remote access to it.
+
+## Tasks Completed
+Created a resource group titled RG-LabEnv to organize lab resources.
+Deployed a virtual machine titled [insert VM name].
+Connected to the VM using Remote Desktop Protocol (RDP) through IP address [insert IP - redact if the VM is still live].
+
+## Screenshots
 📸 Resource Group Creation
-4
 [Image Placeholder]
-</p>
-<p>
-Created RG titled RG-LabEnv.
-</p>
-<br />
-<h2>Virtual Machine</h2>
-<p>
-📸 Resource Group Creation
-4
+
+📸 Virtual Machine Creation
 [Image Placeholder]
-</p>
-<p>
-Created virtual machine titled :
-</p>
-<br />
-<h2>Deployment</h2>
-<p>
-📸 Resource Group Creation
-4
+
+📸 RDP Connection
 [Image Placeholder]
-</p>
-<p>
-Able to RDP into VM through IP address *enter ip*
-</p>
-<br />
+
+## Skills Demonstrated
+Cloud Infrastructure Deployment (Azure)
+Virtual Machine Management
+Remote Desktop Protocol (RDP)
+
+## What I Learned
+This lab gave me my first hands-on experience organizing cloud resources and connecting to a virtual machine remotely, which helped me understand the basic building blocks of cloud infrastructure before diving into more complex configurations.
+
+## Lab Environment
+Microsoft Azure
+Windows 11
